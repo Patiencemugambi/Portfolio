@@ -5,47 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patience Mugambi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navp">
+            <div class="logo1">
+                <img class="slideLeft" src="images/PG Logo.jpeg" alt="" height="100px" width="100px">
+                <h1 class="slideLeft">Portfolio</h1>
+            </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#home-p">Home</a></li>
+                <li><a href="#aboutusp">About</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="projects">
-        <div class="projectsclass">
-            <h1>Welcome to My Portfolio</h1>
-            <p class="">I am Patience Mugambi, a software developer passionate about creating innovative solutions.</p>
-            <a href="" class="">View Projects</a>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2> About Me</h2>
-            <p>I have 3 years of experience in developing web applications using modern technologies and frameworks. My goal is to build high-quality software solutions that solve real-world problems.</p>
-            <h3>Skills</h3>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS#</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Python</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="projects">
+    <section class="homep" id="home-p">
         <div>
-            <h2>Projects</h2>
-            <h3>Project 1</h3>
-            <p>project 1</p>
+            <h1 id="text1" >Welcome to My Portfolio</h1>
+            <p class="slideLeft">I am Patience Mugambi, a software developer passionate about creating innovative solutions.</p>
+            <button class="slideLeft" type="menu">View Projects</button>
+            <div>
+                <img class="drop-in-animation" src="" alt="" height="300px" width="450ps">
+            </div>
+        
+        </div>
+    </section>
+    <hr>
+
+    <section class="aboutp" id="aboutusp">
+        <div class="aboutp1">
+            <div class="cont1">
+                <h1 id="abtp"> About Me</h1>
+            <p>I have 3 years of experience in developing web applications using modern technologies and frameworks. My goal is to build high-quality software solutions that solve real-world problems.</p>
+            </div>
+            <div class="abtp1">
+            <h3>Skills</h3>
+                <button id="btn2" type="menu" onclick="window.location.href='aboutus.html';">HTML5</button>
+                <button id="btn2" type="menu" onclick="window.location.href='aboutus.html';">CSS</button>
+                <button id="btn2" type="menu" onclick="window.location.href='aboutus.html';">JavaScript</button>
+                <button id="btn2" type="menu" onclick="window.location.href='aboutus.html';">React</button>
+                <button id="btn2" type="menu" onclick="window.location.href='aboutus.html';">Node.js</button>
+                <button id="btn2" type="menu" onclick="window.location.href='aboutus.html';">Python</button>
+        </div>
+    </section>
+    <hr>
+
+    <section class="sectionp" id="ourservicep">
+        <h2 id="titlep">Projects</h2>
+        <hr>
+        <div class="textp">
+            <p>My projects...</p>
+        </div>
+        <div class="missionp">
+            <div class="leftp">
+                <div class="img1p">
+                    <h3>Website Redesign for SparkleTech</h3>
+                    <p>Led the redesign of SparkleTech's website, improving user experience, optimizing navigation, and implementing a responsive design for enhanced accessibility across devices. </p>
+                </div>
+                <div class="img2p">
+                    <h3>Inventory Management System for SwiftMart</h3>
+                    <p>Designed and implemented an efficient inventory management system for SwiftMart, integrating barcode scanning, automated stock updates, and real-time reporting for streamlined inventory control and improved operational efficiency.</p>
+                </div>
+                <div class="img3p">
+                    <h3>Social Media Marketing Campaign for StellarGlow</h3>
+                    <p>Developed and executed a comprehensive social media marketing campaign for StellarGlow, including content creation, community engagement, and targeted advertising to increase brand visibility and drive user engagement.</p>               
+                </div>
+                <div class="img4p">
+                    <h3>Data Analysis and Visualization for Techwaves</h3>
+                    <p>Conducted data analysis and visualization for a research project at TechInsights, utilizing statistical techniques and visual representation tools to analyze trends, patterns, and insights from large datasets.</p>                
+                </div>
+            </div>
         </div>
     </section>
 
@@ -57,18 +89,15 @@
     </section>
 
     <footer>
-        <div class="footercontent">
-            <p>&copy; 2023 Software Developer Portfolio. All rights reserved</p>
+        <div class="footer-info">
+            <div class="footer-logo">
+                <p>&copy; 2023 Software Developer Portfolio. All rights reserved</p>
+            </div>
             <div class="social-media-container">
                 <ul class="social-media-icons">
                     <li><img src="images/twitterlogo.jpeg" alt="" height="50px" width="50px"></li>
                     <li><img src="images/facebooklogo.jpeg" alt=""height="50px" width="50px" ></li>
                     <li><img src="images/instagramlogo.jpeg" alt="" height="50px" width="50px"></li>
-                </ul>
-            </div>
-
-            <div class="footer-info">
-                <ul>
                     <li>28860 - 00100 Ngong Lane Plaza, Nairobi</li>
                     <li><img src="images/emaillogo.jpeg" alt="" height="50px" width="50px"></li>
                     <li><img src="images/phonelogo.jpeg" alt="" height="50px" width="50px"></li>
@@ -76,6 +105,8 @@
             </div>
         </div>
     </footer>
-    
+
+
+    <script src="script.js"></script>  
 </body>
 </html>
