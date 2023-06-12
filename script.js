@@ -14,6 +14,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+
+
 // Scroll to top
 const scrollToTopButton = document.querySelector('.scroll-to-top');
 scrollToTopButton.addEventListener('click', function() {
@@ -21,4 +23,14 @@ scrollToTopButton.addEventListener('click', function() {
         top: 0,
         behavior: 'smooth'
     });
+});
+
+
+
+// Form submission alert and reset
+const form = document.querySelector('.contact-form');
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Form submitted successfully!');
+    form.reset();
 });
