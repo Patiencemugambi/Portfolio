@@ -351,3 +351,348 @@
     padding: 8px;
 }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#submitbtnp{
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.9s;
+
+  }
+  
+  #submitbtnp:hover{
+    color: #ff0000;
+    background-color: white;
+    border: 1px solid #ff0000;
+    box-shadow: 2px 2px 5px #ff0000;
+
+    transform: translateY(-5px);
+    transition: all 0.05s;
+  
+
+  }
+  .contact-section h2{
+    text-align: center;
+  }
+
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.contact-form textarea {
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 3px rgb(206, 235, 247) ;
+    transition: all 0.9s;
+
+
+}
+
+.contact-form textarea:hover{
+  border: 1px solid #ff0000;
+  box-shadow: 2px 2px 5px #ff0000;
+  transition: all 0.05s;
+
+  
+  
+}
+
+  .contact-form input {
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#subject option{
+  color: #555;
+}
+
+#subject{
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 3px rgb(206, 235, 247) ;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: white;
+  transition: all 0.9s;
+
+
+
+}
+
+#subject:hover{
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  box-shadow: #ff0000;
+  cursor: pointer;
+
+  transform: translateY(-5px);
+  transition: all 0.05s;
+
+
+}
+
+
+.contact-form input,
+.contact-form textarea{
+  animation: vibrate 0.3s ease-in-out;
+  animation-iteration-count: 2;
+}
+
+
+
+.slideshow{
+  display: flex;
+}
+.slideshow img{
+  margin: 40px;
+  box-shadow: 2px 2px 5px #ff0000;
+
+  
+
+
+}
+
+/* .social-media-container{
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+.social-media-icons{
+  display: flex;
+  list-style: none;
+  margin: 10px;
+  margin-left: 17px;
+}
+
+.social-media-icons img{
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 3px rgb(206, 235, 247) ;
+
+  transition: all 0.9s;
+
+
+}
+
+.social-media-icons img:hover{
+  box-shadow: 2px 2px 5px #ff0000;
+
+
+  transform: translateY(-5px);
+  transition: all 0.05s;
+
+
+}
+.contact-info-container h3{
+  margin-left: 70px;
+
+}
+
+.contact-info{
+  list-style: none;
+  margin: 30px;
+}
+
+.contact-info img{
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 3px rgb(206, 235, 247) ;
+
+  transition: all 0.9s;
+
+
+}
+
+.contact-info img:hover{
+  box-shadow: 2px 2px 5px #ff0000;
+
+  transform: translateY(-5px);
+  transition: all 0.05s;
+
+
+
+}
+
+
+/* 
+.slideshow {
+  animation: blinker 8.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}  */
+
+/*Footer*/
+footer {
+  background-color: #555;
+  color: white;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentp {
+  margin-bottom: 20px;
+}
+
+.contentp h3 {
+  font-size: 1.5em;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-logo,
+.footer-contact {
+  text-align: center;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-info h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  margin-bottom: 5px;
+}
+
+.contact-info li img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.footer-info p {
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+/*Footer*/
+
+
+
+.scroll-to-top{
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 5%;
+  box-shadow: 2px 2px 5px rgb(206, 235, 247);
+  transition: all 0.9s;
+
+  /* mix-blend-mode: difference; to make the button change color as you scroll for visibility */
+
+}
+ .scroll-to-top:hover{
+  color: #ff0000;
+  background-color: white;
+  border: 1px solid #ff0000;
+  box-shadow: 2px 2px 5px #ff0000;
+  transition: all 0.05s;
+
+
+ }
+
+
+
+
+
+
+  
+
+
+
+ @media (max-width: 768px) {
+    .leftp {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    
+    .leftp div {
+      margin: 20px auto;
+      margin-left: 1.0em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sectionp h3 {
+      font-size: 1.5em;
+    }
+  }
+  @media(max-width: 360px){
+    .leftp {
+        display: grid;
+        grid-template-columns: auto auto;
+      }
+
+  }
+  
+  
+
+
+/* styling for aboutus.html */
+#approachp ul{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
