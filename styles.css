@@ -670,6 +670,12 @@ footer {
       }
 
   }
+
+  @media(max-width:1368px){
+    .aboutp{
+      height: 600px;
+  }
+}
   
   
 
