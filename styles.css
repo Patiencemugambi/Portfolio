@@ -1,6 +1,9 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  /* color: white ; */
+
+
 }
 
 
@@ -64,7 +67,7 @@
 
   
 .navp {
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -262,6 +265,8 @@
 
 .aboutp{
     margin-top: 15px;
+    height: 300px;
+    text-align: center;
   }
   
   .aboutp h1{
@@ -341,7 +346,7 @@
     margin-top: 20px;
     border-radius: 5px;
     /* box-shadow: 2px 2px 2px 2px rgb(187, 182, 182); */
-    background-color: rgb(206, 235, 247);
+    /* background-color: rgb(206, 235, 247); */
     box-shadow: 20px 20px 50px 15px grey;
     padding: 8px;
 }
