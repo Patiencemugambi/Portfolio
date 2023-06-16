@@ -166,7 +166,7 @@
   #text1{
     animation: text1 4s;
     font-weight: 100;
-    font-size: 5.5em;
+    font-size: 4.5em;
   }
   
   
@@ -676,8 +676,62 @@ footer {
       height: 600px;
   }
 }
-  
-  
+
+@media(max-width:1368px){
+  .aboutp{
+    height: 1000px;
+}
+.abtp1{
+  margin-top: 70%;
+}
+
+.homep {
+  height: 800px;
+}
+
+/********************************************/
+
+
+
+
+
+
+
+
+
+
+#home-p p {
+font-size: 3vw;
+}
+
+/* .navp h1, li a{
+  font-size: 3vw; 
+
+} */
+
+
+
+/* .navp li a{
+font-size: 20px;
+width: 100%;
+
+
+} */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* styling for aboutus.html */
