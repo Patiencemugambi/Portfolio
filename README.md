@@ -6,16 +6,6 @@
 ## Project description
 #### The webpage is designed to showcase a portfolio of a web designer. It provides contact details and the designer's previous projects.
 
-## Project Setup and instructions
-#### To view the webpage (Week1project) open this link: https://patiencemugambi.github.io/portfolio2/ on your browser.
-
-```
-git clone git@github.com:Patiencemugambi/portfolio2.git
-git init
-git add <filename>
-git commit -m "initial commit"
-git push origin master
-```
 
 
 ### LINK TO LIVE SITE
